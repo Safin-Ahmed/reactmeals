@@ -35,7 +35,7 @@ const DUMMY_MEALS = [
   {
     id: "m5",
     name: "Gorur Goshto",
-    description: "700 Taka Kg",
+    description: "Ekbar Khaiben Toh Barbar Chaiben",
     price: 122.99,
   },
 ];
@@ -43,6 +43,7 @@ const DUMMY_MEALS = [
 const AvailableMeals = () => {
   const mealsList = DUMMY_MEALS.map((meal) => (
     <MealItem
+      item={meal}
       key={meal.id}
       id={meal.id}
       name={meal.name}

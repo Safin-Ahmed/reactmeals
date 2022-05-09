@@ -6,6 +6,11 @@
   overflow: auto;
 }
 
+.empty-msg h2 {
+  color: #8a2b06;
+  text-align: center;
+}
+
 .total {
   display: flex;
   justify-content: space-between;

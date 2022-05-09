@@ -1,0 +1,42 @@
+.singleItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  border-bottom: 2px solid #8a2b06;
+}
+.price_Amount {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.price_Amount h4 {
+  color: #8a2b06;
+  margin-right: 2rem;
+}
+.price_Amount span {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.actions button {
+  width: 3rem;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  color: #8a2b06;
+  font-size: 1.25rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #8a2b06;
+  color: #fff;
+}
